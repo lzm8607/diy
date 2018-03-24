@@ -528,12 +528,13 @@ ul {
     display: none;
     position: absolute;
     z-index: 2;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
+    top: 58px;
+    left: 64px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
     text-align: center;
-    line-height: 196px;
+    line-height: 60px;
     font-size: 20px;
     color: #FFF;
     background: rgba(0, 0, 0, 0.5); }
@@ -703,6 +704,23 @@ ul {
 
 .text-color-popover {
   height: 300px; }
+
+.text-popover .el-input__inner {
+  height: 50px;
+  border-radius: 0px;
+  border-width: 2px;
+  font-size: 30px; }
+
+.text-popover .el-button {
+  height: 50px;
+  border-radius: 0;
+  border: 0;
+  background: #059dc1;
+  color: #FFF; }
+  .text-popover .el-button:first-child {
+    background: #f60; }
+  .text-popover .el-button:hover {
+    opacity: .8; }
 /**
  * Swiper 4.1.6
  * Most modern mobile touch slider and framework with hardware accelerated transitions
