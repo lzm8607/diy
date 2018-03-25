@@ -574,7 +574,8 @@ ul {
   height: 60px;
   padding: 0px 60px 0px 40px;
   background: #FFF;
-  border: 1px solid #FFF; }
+  border: 1px solid #FFF;
+  border-top: 1px dashed #eee; }
 
 .list-item .item-options {
   position: absolute;
@@ -693,7 +694,10 @@ ul {
 .item-desc {
   float: left;
   padding-left: 10px;
-  max-width: 120px; }
+  max-width: 100px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; }
   .item-desc p {
     text-overflow: ellipsis;
     white-space: nowrap;
