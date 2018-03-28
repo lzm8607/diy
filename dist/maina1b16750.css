@@ -731,7 +731,7 @@ ul {
 
 .draw-mode {
   float: left;
-  width: 30%;
+  width: 20%;
   height: 100px;
   display: inline-block;
   background: url(/images/efb658df44b65db5.png) no-repeat center;
@@ -739,7 +739,9 @@ ul {
   .draw-mode.draw-mode-2 {
     background-image: url(/images/345e6e878c4d59d1.png); }
   .draw-mode.draw-mode-3 {
-    background-image: url(/images/49e0332e2a96bbd5.png); }
+    background-image: url(/images/66be16cbe9159a61.png); }
+  .draw-mode.draw-mode-4 {
+    background-image: url(/images/53920922aadb33fd.png); }
   .draw-mode + .draw-mode {
     margin-left: 5%; }
 
