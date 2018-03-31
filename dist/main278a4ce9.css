@@ -180,6 +180,11 @@ ul {
     .tool-bar > ul > li .el-button.redo:hover, .tool-item-container > div .el-button.redo:hover {
       background: #027995;
       color: #FFF; }
+    .tool-bar > ul > li .el-button.redo.font-d, .tool-item-container > div .el-button.redo.font-d {
+      width: 40px;
+      height: 32px;
+      background: url(/images/2b4a8dce519d29ec.png) no-repeat center #FFF;
+      background-size: 80% 80%; }
   .tool-bar > ul > li .el-button i, .tool-item-container > div .el-button i {
     font-size: 20px;
     padding-right: 10px;
